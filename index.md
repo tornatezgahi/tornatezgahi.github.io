@@ -1,1 +1,1 @@
-I am a blogger.
+or formerly known as Torna Tezgahi (lol turkish)
