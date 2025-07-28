@@ -1,0 +1,30 @@
+/* Hover shadow efekti için CSS */
+.hover-shadow {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.hover-shadow:hover {
+    transform: translateY(-5px) scale(2);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.4);
+    z-index: 10;
+}
+
+/* İsteğe bağlı: Fotoğrafın boyutlarını ayarlama */
+.hover-shadow img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Column hover effect - enlarges the entire column */
+.col-4.hover-shadow {
+    transition: transform 0.3s ease, box-shadow 0.3s ease, z-index 0.3s ease;
+    position: relative;
+}
+
+.col-4.hover-shadow:hover {
+    transform: scale(1);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+    z-index: 100;
+}
